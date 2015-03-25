@@ -1,6 +1,4 @@
 ---
 title: Home
-layout: default
+layout: site
 ---
-
-### Hello, world2!
