@@ -10,3 +10,12 @@ tabs:
     id: about
   - title: Contact
     id: contact
+
+# Social networks usernames ("name" is used to obtain the proper FontAwesome icon)
+social:
+  - name: twitter
+    url: https://www.twitter.com/mkoch227
+    tooltip-text: "Follow me on Twitter"
+  - name: github
+    url: https://www.github.com/mkoch227
+    tooltip-text: "Follow me on GitHub"

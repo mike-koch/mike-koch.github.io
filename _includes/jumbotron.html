@@ -1,9 +1,19 @@
 <!-- Begin Jumbotron (header) -->
 <div class="jumbotron">
-    <div class="container">
-        <h1>Hello, world!</h1>
-        <p>...</p>
-        <p><a class="btn btn-danger btn-lg" href="javascript:void(0)" role="button">Learn more</a></p>
+    <div class="container text-center">
+        <img src="/img/me.png" alt="Photo of Mike Koch" class="drop-shadow img-circle">
+        <h3>{{ site.name }}</h3>
+        <p>Software Developer &bull; IT Consultant</p>
+        <br>
+        <!-- Social -->
+        <div class="social">
+        {% for network in site.social %}
+            <a href="{{ network.url }}" target="_blank">
+                <i class="fa fa-{{ network.name }} fa-3x"
+                   data-toggle="popover"
+                   data-content="{{ network.tooltip-text }}"></i></a>
+        {% endfor %}
+        </div>
     </div>
 </div>
-<!-- End   Jumbotron (header) -->
+<!-- End Jumbotron (header) -->

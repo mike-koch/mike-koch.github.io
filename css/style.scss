@@ -2,5 +2,29 @@
 ---
 
 body {
-   padding-top: 70px; 
+   padding-top: 60px; 
+}
+
+.jumbotron {
+    background-image: url('/img/big_a750f34a101df74c9808778a31f3565a1838537f-2012-12-28-0243.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+    img {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .social > i:nth-child(1) {
+        margin-right: 10px;
+    }
+    
+    a {
+        color: #FFF;
+        
+        :hover {
+            color: #CCC;
+        }
+    }
 }
