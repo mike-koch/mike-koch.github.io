@@ -1,0 +1,27 @@
+<!-- Begin Portfolio Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Portfolio</h2>
+                <hr class="code-primary">
+            </div>
+        </div>
+        <div class="row text-center">
+            {% for post in site.posts %}
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <p>{{ post.client }}</p>
+                            <i class="fa fa-info-circle fa-3x"></i>
+                        </div>
+                    </div>        
+                    <img src="img/portfolio/{{ post.image-home }}" class="img-responsive portfolio-img" alt="{{ post.alt-home }}">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Portfolio Section -->

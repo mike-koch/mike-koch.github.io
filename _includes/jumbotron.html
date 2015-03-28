@@ -1,5 +1,5 @@
 <!-- Begin Jumbotron (header) -->
-<div class="jumbotron">
+<header class="jumbotron">
     <div class="container text-center">
         <img src="/img/me.png" alt="Photo of Mike Koch" class="drop-shadow img-circle">
         <h3>{{ site.name }}</h3>
@@ -7,13 +7,15 @@
         <br>
         <!-- Social -->
         <div class="social">
-        {% for network in site.social %}
-            <a href="{{ network.url }}" target="_blank">
-                <i class="fa fa-{{ network.name }} fa-3x"
-                   data-toggle="popover"
-                   data-content="{{ network.tooltip-text }}"></i></a>
-        {% endfor %}
+            {% for network in site.social %}
+            <a href="{{ network.url }}" 
+               class="btn-social btn-outline"
+               data-toggle="popover"
+               data-content="{{ network.tooltip-text }}">
+                <i class="fa fa-fw fa-{{ network.name }}"></i>
+            </a>
+            {% endfor %}
         </div>
     </div>
-</div>
+</header>
 <!-- End Jumbotron (header) -->
