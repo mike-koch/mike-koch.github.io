@@ -194,3 +194,13 @@ hr.code-primary {
         background-color: #FFF;
     }
 }
+
+section.success {
+    background-color: rgba(24,188,156,1);
+    color: #FFF;
+    padding: 50px 0;
+    
+    h2 {
+        text-shadow: 4px 3px #000;
+    }
+}
