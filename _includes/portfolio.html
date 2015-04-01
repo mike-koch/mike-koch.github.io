@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row text-center">
-            {% for post in site.posts %}
+            {% for post in site.posts reversed %}
             <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="portfolio-link">
                     <div class="caption">
