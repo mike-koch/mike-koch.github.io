@@ -6,10 +6,39 @@ body {
     padding-top: 60px; 
 }
 
-h2, .navbar {
+h1, h2, h3, h4, h5, h6, .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active,
+    .active {
+        border: solid 2px #fff;
+        color: #000;
+        background: #fff;
+    }
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
 }
 
 .jumbotron {
@@ -21,37 +50,6 @@ h2, .navbar {
     img {
         width: 180px;
         height: 180px;
-    }
-
-    .social {
-        .btn-outline {
-            margin-top: 15px;
-            border: solid 2px #fff;
-            font-size: 20px;
-            color: #fff;
-            background: 0 0;
-            transition: all .3s ease-in-out;
-
-            &:hover,
-            &:focus,
-            &:active,
-            .active {
-                border: solid 2px #fff;
-                color: #000;
-                background: #fff;
-            }
-        }
-
-        .btn-social {
-            display: inline-block;
-            width: 50px;
-            height: 50px;
-            border: 2px solid #fff;
-            border-radius: 100%;
-            text-align: center;
-            font-size: 20px;
-            line-height: 45px;
-        }
     }
 }
 
@@ -182,15 +180,15 @@ hr.code-light {
 
     &:after {
         color: #fff;
-        background-color: #18bc9c;
+        background-color: #{{ site.colors.primary }};
     }
 }
 
 hr.code-primary {
-    border-color: #2c3e50;
+    border-color: #{{ site.colors.secondary }};
 
     &:after {
-        color: #2c3e50;
+        color: #{{ site.colors.secondary }};
         background-color: #FFF;
     }
 }
@@ -199,8 +197,30 @@ section.success {
     background-color: rgba(24,188,156,1);
     color: #FFF;
     padding: 50px 0;
-    
+
     h2 {
         text-shadow: 4px 3px #000;
     }
+}
+
+footer {
+    color: #fff;
+
+    .footer-above {
+        padding-top: 50px;
+        background-color: #000;
+    }
+
+    .footer-col {
+        margin-bottom: 50px;
+    }
+
+    .footer-below {
+        padding: 25px 0;
+        background-color: #{{ site.colors.tertiary }};
+    }
+}
+
+p {
+    font-size: 20px;
 }

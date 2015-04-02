@@ -1,5 +1,6 @@
 name: "Mike Koch"
 description: "Mike Koch's Website"
+email: "mkoch227@gmail.com"
 
 url: "http://mikekoch.me"
 
@@ -19,3 +20,13 @@ social:
   - name: github
     url: https://www.github.com/mkoch227
     tooltip-text: "Follow me on GitHub"
+    
+footer:
+    copyright: Michael Koch
+    social: Follow Me
+    
+# Site colors (excluding # sign)
+colors:
+    primary: 18bc9c
+    secondary: 2c3e50
+    tertiary: 233140
