@@ -4,9 +4,13 @@ email: "mkoch227@gmail.com"
 
 url: "http://mikekoch.me"
 
+collections:
+  - my_projects
+  - my_contributions
+
 tabs:
-  - title: Portfolio
-    id: portfolio
+  - title: My Projects
+    id: my-projects
   - title: About
     id: about
   - title: Contact
