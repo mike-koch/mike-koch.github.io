@@ -11,6 +11,8 @@ collections:
 tabs:
   - title: My Projects
     id: my-projects
+  - title: My Contributions
+    id: my-contributions
   - title: About
     id: about
   - title: Contact
