@@ -26,6 +26,12 @@ social:
   - name: github
     url: https://www.github.com/mkoch227
     tooltip-text: "Follow me on GitHub"
+  - name: steam
+    url: http://steamcommunity.com/id/mkoch227
+    tooltip-text: "Add me on Steam"
+  - name: linkedin
+    url: https://www.linkedin.com/pub/mike-koch/1a/4b6/251
+    tooltip-text: "Add me to your LinkedIn network"
     
 footer:
     copyright: Michael Koch
