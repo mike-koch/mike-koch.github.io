@@ -11,7 +11,7 @@
             <a href="{{ network.url }}" 
                class="btn-social btn-outline"
                data-toggle="popover"
-               data-content="{{ network.tooltip-text }}">
+               data-content="{{ network.tooltip-text }}" {{ network.annotation }}>
                 <i class="fa fa-fw fa-{{ network.name }}"></i>
             </a>
             {% endfor %}

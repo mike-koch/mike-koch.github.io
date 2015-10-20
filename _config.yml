@@ -23,15 +23,19 @@ social:
   - name: twitter
     url: https://www.twitter.com/mkoch227
     tooltip-text: "Follow me on Twitter"
+    annotation: ""
   - name: github
     url: https://www.github.com/mkoch227
     tooltip-text: "Follow me on GitHub"
+    annotation: ""
   - name: steam
     url: http://steamcommunity.com/id/mkoch227
     tooltip-text: "Add me on Steam"
+    annotation: ""
   - name: linkedin
     url: https://www.linkedin.com/pub/mike-koch/1a/4b6/251
     tooltip-text: "Add me to your LinkedIn network"
+    annotation: "data-proofer-ignore"
     
 footer:
     copyright: Michael Koch
