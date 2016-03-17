@@ -1,5 +1,5 @@
 ---
-title: Mobile Route Advisor for ETS2
+title: Mobile Route Advisor for ETS2/ATS
 modal-id: 1
 date: 2015-03-01
 image-home: mobile-route-advisor/home.png
