@@ -27,6 +27,8 @@ var loadJquery = function() {
             event.preventDefault();
         });
     });
+
+    $('#contact-form').validator();
 };
 
 jQuery(document).ready(loadJquery);
