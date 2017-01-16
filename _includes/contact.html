@@ -33,7 +33,17 @@
                             <textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-error="Please enter a message."></textarea>
                             <p class="help-block with-errors"></p>
                         </div>
-                        <p class="help-block">Please do not use this form to contact me for application support.</p>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 controls">
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="agree" id="agree" required data-error="You have not agreed to these terms.">
+                                This submission does <b>not</b> pertain to application support.
+                              </label>
+                            </div>
+                            <p class="help-block with-errors"></p>
+                        </div>
                     </div>
                     <br>
                     <div id="success"></div>
