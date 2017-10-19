@@ -15,8 +15,6 @@ tabs:
     id: my-contributions
   - title: About
     id: about
-  - title: Contact
-    id: contact
 
 # Social networks usernames ("name" is used to obtain the proper FontAwesome icon)
 social:
