@@ -34,6 +34,10 @@ social:
     url: https://www.linkedin.com/in/mike-koch-2514b61a
     tooltip-text: "Add me to your LinkedIn network"
     annotation: "data-proofer-ignore"
+  - name: gitlab
+    url: https://www.gitlab.com/mike-koch
+    tooltip-text: "View my GitLab Profile"
+    annotation: ""
     
 footer:
     copyright: Michael Koch
